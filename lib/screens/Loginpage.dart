@@ -84,7 +84,7 @@ class Statelogin extends State<Loginpage>{
                             spreadRadius: 0.0,
                             offset: Offset(2.0, 2.0), // shadow direction: bottom right
                           )
-                        ],color: Colors.white,shape: BoxShape.circle),margin: EdgeInsets.only(right: MediaQuery.of(context).size.width*0.01,left: MediaQuery.of(context).size.width*0.01),width: MediaQuery.of(context).size.width*0.12,height:MediaQuery.of(context).size.width*0.12 ,child :InkWell(onTap:()=> loginlogic.signInWithFacebook(),
+                        ],color: Colors.white,shape: BoxShape.circle),margin: EdgeInsets.only(right: MediaQuery.of(context).size.width*0.01,left: MediaQuery.of(context).size.width*0.01),width: MediaQuery.of(context).size.width*0.12,height:MediaQuery.of(context).size.width*0.12 ,child :InkWell(onTap:()=> null,//loginlogic.signInWithFacebook(),
                       child: Center(child: Image(width: 15,height: 25,image: AssetImage("images/facebook2.png") ,)))),Container(decoration: BoxDecoration( boxShadow: [
                           BoxShadow(
                             color: Colors.black26,
