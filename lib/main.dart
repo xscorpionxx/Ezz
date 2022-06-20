@@ -150,7 +150,7 @@ class MyApp extends StatelessWidget {
                   if (snapshot.connectionState == ConnectionState.done) {
                     if (mainlogic.status == true) {
                       print(mainlogic.accountstatus);
-                      if(mainlogic.accountstatus.toString().trim() =="2"){
+                      if(mainlogic.accountstatus.toString().trim() =="1"){
                         return MaterialApp(
                             theme: ThemeData(fontFamily: 'Tajawal'),
                             title: "Ezz",
